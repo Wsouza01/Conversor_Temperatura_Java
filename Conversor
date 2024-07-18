@@ -1,0 +1,25 @@
+/**
+ * Autor: Wesley de Carvalho
+ *Data de execução: 18/07/2024
+ */
+
+package Fundamentos;
+
+public class DesafioVariaveis {
+    public static void main(String[] args) {
+        
+        // Converter de Celsius para Fahrenheit
+        double temperaturaCelsius = 21;
+        final double fahrenheit = (temperaturaCelsius * 9 / 5) + 32;
+        System.out.println("A temperatura atual é: " + temperaturaCelsius);
+        System.out.println("\n\nQual é a temperatura de Celsius para Fahrenheit \no valor de Celsius é : " + temperaturaCelsius);
+        System.out.println("\nConvertendo para Fahrenheit: " + fahrenheit);
+        
+        // Converter de Fahrenheit para Celsius
+        double temperaturaFahrenheit = 86;
+        final double celsius = (temperaturaFahrenheit - 32) * 5 / 9;
+        System.out.println("A temperatura atual é: " + temperaturaFahrenheit);
+        System.out.println("\nQual é a temperatura Fahrenheit para Celsius \no valor de Fahrenheit é: " + temperaturaFahrenheit);
+        System.out.println("\nConvertendo para Celsius: " +  celsius);
+    }
+}
